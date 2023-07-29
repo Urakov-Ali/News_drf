@@ -7,3 +7,5 @@ class NewsSerialzer(serializers.ModelSerializer):
     class Meta:
         model = New
         fields = ['id', 'title', 'text', 'author', 'date']
+
+#serializer file
